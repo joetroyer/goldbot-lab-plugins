@@ -1,8 +1,0 @@
-{
-  "name": "lab-query-channel-credibility",
-  "version": "0.1.0",
-  "description": "Compare L2 claimed vs L3 candle-truth agreement per signal provider",
-  "author": {
-    "name": "Joe Troyer"
-  }
-}
