@@ -1,0 +1,17 @@
+{
+  "name": "goldbot-lab",
+  "description": "Gold Mine Trading Bot — lab analysis plugins for Claude Code Desktop",
+  "owner": {
+    "name": "Joe Troyer",
+    "email": "joetroyer@gmail.com"
+  },
+  "plugins": [
+    { "name": "lab-query-signal-performance",  "source": "./lab-query-signal-performance",  "version": "0.1.0", "description": "Query TP hit rates and win rate for GS or Ceddi signals with multi-timeframe breakdown", "author": { "name": "Joe Troyer" } },
+    { "name": "lab-query-channel-credibility", "source": "./lab-query-channel-credibility", "version": "0.1.0", "description": "Compare L2 claimed vs L3 candle-truth agreement per signal provider",                  "author": { "name": "Joe Troyer" } },
+    { "name": "lab-query-execution-gaps",      "source": "./lab-query-execution-gaps",      "version": "0.1.0", "description": "Capture efficiency: lab perfect-sim vs bot execution, per provider and window",        "author": { "name": "Joe Troyer" } },
+    { "name": "lab-query-drawdown-profile",    "source": "./lab-query-drawdown-profile",    "version": "0.1.0", "description": "Drawdown stats, consecutive-SL streaks, and Markov transition matrix",                  "author": { "name": "Joe Troyer" } },
+    { "name": "lab-fetch-scenarios",           "source": "./lab-fetch-scenarios",           "version": "0.1.0", "description": "List all backtest scenario results, sortable by win rate, profit factor, or drawdown",  "author": { "name": "Joe Troyer" } },
+    { "name": "lab-create-scenario",           "source": "./lab-create-scenario",           "version": "0.1.0", "description": "Create a new backtest scenario YAML, run it, and return results",                       "author": { "name": "Joe Troyer" } },
+    { "name": "lab-clone-scenario",            "source": "./lab-clone-scenario",            "version": "0.1.0", "description": "Clone an existing scenario YAML with key overrides, run it, and return results",         "author": { "name": "Joe Troyer" } }
+  ]
+}

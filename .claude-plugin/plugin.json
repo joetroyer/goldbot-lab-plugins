@@ -1,0 +1,8 @@
+{
+  "name": "lab-query-signal-performance",
+  "version": "0.1.0",
+  "description": "Query TP hit rates and win rate for GS or Ceddi signals with multi-timeframe breakdown",
+  "author": {
+    "name": "Joe Troyer"
+  }
+}
