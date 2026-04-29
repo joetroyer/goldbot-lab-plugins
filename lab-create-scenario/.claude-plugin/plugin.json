@@ -1,0 +1,8 @@
+{
+  "name": "lab-create-scenario",
+  "version": "0.1.0",
+  "description": "Create a new backtest scenario YAML, run it, and return results",
+  "author": {
+    "name": "Joe Troyer"
+  }
+}

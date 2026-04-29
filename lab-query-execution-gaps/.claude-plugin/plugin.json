@@ -1,0 +1,8 @@
+{
+  "name": "lab-query-execution-gaps",
+  "version": "0.1.0",
+  "description": "Capture efficiency: lab perfect-sim vs bot execution, per provider and window",
+  "author": {
+    "name": "Joe Troyer"
+  }
+}

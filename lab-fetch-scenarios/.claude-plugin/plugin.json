@@ -1,0 +1,8 @@
+{
+  "name": "lab-fetch-scenarios",
+  "version": "0.1.0",
+  "description": "List all backtest scenario results, sortable by win rate, profit factor, or drawdown",
+  "author": {
+    "name": "Joe Troyer"
+  }
+}

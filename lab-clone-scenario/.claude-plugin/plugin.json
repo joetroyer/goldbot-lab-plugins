@@ -1,0 +1,8 @@
+{
+  "name": "lab-clone-scenario",
+  "version": "0.1.0",
+  "description": "Clone an existing scenario YAML with key overrides, run it, and return results",
+  "author": {
+    "name": "Joe Troyer"
+  }
+}

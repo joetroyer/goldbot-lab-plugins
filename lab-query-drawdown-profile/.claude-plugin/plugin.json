@@ -1,0 +1,8 @@
+{
+  "name": "lab-query-drawdown-profile",
+  "version": "0.1.0",
+  "description": "Drawdown stats, consecutive-SL streaks, and Markov transition matrix from lab backtest results",
+  "author": {
+    "name": "Joe Troyer"
+  }
+}
