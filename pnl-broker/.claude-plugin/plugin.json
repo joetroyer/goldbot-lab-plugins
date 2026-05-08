@@ -1,0 +1,8 @@
+{
+  "name": "pnl-broker",
+  "version": "0.2.0",
+  "description": "Broker-truth P&L for one account from deals.bin, split by bot vs scalps",
+  "author": {
+    "name": "Joe Troyer"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "whatif-channel",
+  "version": "0.2.0",
+  "description": "Counterfactual: what would channel X make at $Y starting balance and Z% risk across full lab history",
+  "author": {
+    "name": "Joe Troyer"
+  }
+}

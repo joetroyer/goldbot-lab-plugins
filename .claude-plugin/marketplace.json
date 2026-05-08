@@ -14,56 +14,99 @@
       "source": "./lab-query-signal-performance",
       "description": "Query TP hit rates and win rate for GS or Ceddi signals with multi-timeframe breakdown",
       "version": "0.1.0",
-      "author": { "name": "Joe Troyer" }
+      "author": {
+        "name": "Joe Troyer"
+      }
     },
     {
       "name": "lab-query-channel-credibility",
       "source": "./lab-query-channel-credibility",
       "description": "Compare L2 claimed vs L3 candle-truth agreement per signal provider",
       "version": "0.1.0",
-      "author": { "name": "Joe Troyer" }
+      "author": {
+        "name": "Joe Troyer"
+      }
     },
     {
       "name": "lab-query-execution-gaps",
       "source": "./lab-query-execution-gaps",
       "description": "Capture efficiency: lab perfect-sim vs bot execution, per provider and window",
       "version": "0.1.0",
-      "author": { "name": "Joe Troyer" }
+      "author": {
+        "name": "Joe Troyer"
+      }
     },
     {
       "name": "lab-query-drawdown-profile",
       "source": "./lab-query-drawdown-profile",
       "description": "Drawdown stats, consecutive-SL streaks, and Markov transition matrix from lab backtest results",
       "version": "0.1.0",
-      "author": { "name": "Joe Troyer" }
+      "author": {
+        "name": "Joe Troyer"
+      }
     },
     {
       "name": "lab-fetch-scenarios",
       "source": "./lab-fetch-scenarios",
       "description": "List all backtest scenario results, sortable by win rate, profit factor, or drawdown",
       "version": "0.1.0",
-      "author": { "name": "Joe Troyer" }
+      "author": {
+        "name": "Joe Troyer"
+      }
     },
     {
       "name": "lab-create-scenario",
       "source": "./lab-create-scenario",
       "description": "Create a new backtest scenario YAML, run it, and return results",
       "version": "0.1.0",
-      "author": { "name": "Joe Troyer" }
+      "author": {
+        "name": "Joe Troyer"
+      }
     },
     {
       "name": "lab-clone-scenario",
       "source": "./lab-clone-scenario",
       "description": "Clone an existing scenario YAML with key overrides, run it, and return results",
       "version": "0.1.0",
-      "author": { "name": "Joe Troyer" }
+      "author": {
+        "name": "Joe Troyer"
+      }
     },
     {
       "name": "lab-prune-scenarios",
       "source": "./lab-prune-scenarios",
       "description": "Soft-delete auto-generated backtest runs older than N days — dry-run by default, YAML files kept on disk",
       "version": "0.1.0",
-      "author": { "name": "Joe Troyer" }
+      "author": {
+        "name": "Joe Troyer"
+      }
+    },
+    {
+      "name": "pnl-broker",
+      "source": "./pnl-broker",
+      "description": "Broker-truth P&L for one account from deals.bin, split by bot vs scalps",
+      "version": "0.2.0",
+      "author": {
+        "name": "Joe Troyer"
+      }
+    },
+    {
+      "name": "pnl-dispatch",
+      "source": "./pnl-dispatch",
+      "description": "What dispatch_records THINKS one account made — diff vs pnl-broker catches recording bugs",
+      "version": "0.2.0",
+      "author": {
+        "name": "Joe Troyer"
+      }
+    },
+    {
+      "name": "whatif-channel",
+      "source": "./whatif-channel",
+      "description": "Counterfactual: what would channel X make at $Y starting balance and Z% risk across full lab history",
+      "version": "0.2.0",
+      "author": {
+        "name": "Joe Troyer"
+      }
     }
   ]
 }

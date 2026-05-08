@@ -1,0 +1,8 @@
+{
+  "name": "pnl-dispatch",
+  "version": "0.2.0",
+  "description": "What dispatch_records THINKS one account made — diff vs pnl-broker catches recording bugs",
+  "author": {
+    "name": "Joe Troyer"
+  }
+}
